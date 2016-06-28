@@ -1,0 +1,15 @@
+{
+  "name": "phoenix-socket",
+  "description": "Socket API for accessing Phoenix Framework's Channels",
+  "main": "dist/socket.js",
+  "version": "1.1.3",
+  "homepage": "https://github.com/mspanc/phoenix_socket#readme",
+  "authors": "",
+  "keywords": [
+    "phoenix",
+    "phoenixframework",
+    "socket",
+    "websockets"
+  ],
+  "license": "MIT"
+}
