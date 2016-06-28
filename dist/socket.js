@@ -2,10 +2,6 @@
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -245,7 +241,7 @@ var Push = (function () {
   return Push;
 })();
 
-var Channel = exports.Channel = (function () {
+var Channel = (function () {
   function Channel(topic, params, socket) {
     var _this2 = this;
 
@@ -449,7 +445,7 @@ var Channel = exports.Channel = (function () {
   return Channel;
 })();
 
-var Socket = exports.Socket = (function () {
+var Socket = (function () {
 
   // Initializes the Socket
   //
@@ -764,7 +760,7 @@ var Socket = exports.Socket = (function () {
   return Socket;
 })();
 
-var LongPoll = exports.LongPoll = (function () {
+var LongPoll = (function () {
   function LongPoll(endPoint) {
     _classCallCheck(this, LongPoll);
 
@@ -871,7 +867,7 @@ var LongPoll = exports.LongPoll = (function () {
   return LongPoll;
 })();
 
-var Ajax = exports.Ajax = (function () {
+var Ajax = (function () {
   function Ajax() {
     _classCallCheck(this, Ajax);
   }
